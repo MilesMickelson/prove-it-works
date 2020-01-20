@@ -57,7 +57,7 @@ export default class App extends React.Component {
           <option value='12'>Monthly</option>
           <option value='4'>Quarterly</option>
         </select>
-        <button onClick={this.calculateMonthlyPayment} id='calculate' >Calculate</button>
+        <button onClick={ this.calculateMonthlyPayment } id='calculate' >Calculate</button>
         <p id='output'></p>
       </div>
     );
